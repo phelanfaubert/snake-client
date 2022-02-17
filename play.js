@@ -1,5 +1,6 @@
 //const client = require("./client");
-const {connect} = require("./client");
+const { connect } = require("./client");
+const { setupInput } = require("./input");
 
 const setupInput = function () {
   const stdin = process.stdin;
